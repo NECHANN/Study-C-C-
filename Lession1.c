@@ -20,7 +20,7 @@ int thamlam (int a[][Max], int n, POS t[], int &d);
 
 // t luu những vị trí đi qua
 // d độ dài đường đi
-
+/* test */
 int thamlam (int a[][Max], int n, POS t[], int &d){
     int tongcd = 0;
     d = 0; 
