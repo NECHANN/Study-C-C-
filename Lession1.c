@@ -64,8 +64,9 @@ int thamlam (int a[][Max], int n, POS t[], int &d){
     }while (!(c.a == n -1 && c.b == n-1));
     return tongcd;
 }
-void changeUser(){
+void changeUser(int user{
     printf("User Changed")
+    user++;
 }
 int main (){
     int a[Max][Max];
@@ -75,7 +76,7 @@ int main (){
     int tong;
     int count;
     count = 5;
-    changeUser()
+    changeUser(count)
     if (!docfile("D:\\c++\\KTLT\\INPUT.TXT", a, n)) {
 		cout << "Loi doc file!\n";
 		return -1;
